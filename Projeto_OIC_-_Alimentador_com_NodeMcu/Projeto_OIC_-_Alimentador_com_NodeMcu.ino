@@ -7,16 +7,16 @@
 #define pinoSensor D4
 
 // Configuracao do servo
-#include <Servo.h> //INCLUSÃO DA BIBLIOTECA NECESSÁRIA
-Servo s; //OBJETO DO TIPO SERVO
-int pos; //POSIÇÃO DO SERVO
+#include <Servo.h> 
+Servo s; 
+int pos; 
 #define pinoServo D3
 
 // Setup WIFI e MQTT
-const char* ssid = "RedeTeste";
-const char* password = "password";
+const char* ssid = "RedeTeste"; //  nome da rede wifi
+const char* password = "password"; // senha da rede wifi
 const char* mqtt_server = "driver.cloudmqtt.com";
-const int mqtt_port = 18819 ;
+const int mqtt_port = 18819 ; // di
 const char* mqtt_user = "apheflog";
 const char* mqtt_password = "zSaFjeN3KUG6";
 const char* mqtt_topic = "alimentador/status";
