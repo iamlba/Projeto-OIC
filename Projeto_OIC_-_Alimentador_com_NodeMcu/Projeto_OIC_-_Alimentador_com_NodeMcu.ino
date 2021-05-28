@@ -1,10 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-//equipamentos utilizados
+//Equipamentos utilizados
 //NodeMcu V3
 //Servo Motor SG90
 //Sensor infravermelho reflexivo de obstáculo HW-201
+//Led de alto brilho
 
 
 // Configuracao do led
